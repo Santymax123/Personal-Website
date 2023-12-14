@@ -1,0 +1,40 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('Max_Stoner.jpg');
+
+    /* Full height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('Landscape.jpg');
+
+    /* Full height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introduction {
+    height: 5vh;
+    background-color: white;
+    font-size: 36px;
+}
