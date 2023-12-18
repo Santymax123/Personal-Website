@@ -4,9 +4,11 @@ html {
     margin: 0;
 }
 
+
+
 .parallax {
     /* The image used */
-    background-image: url('Max_Stoner.jpg');
+    background-image: url('Images/Max_Stoner.jpg');
 
     /* Full height */
     height: 100vh;
@@ -17,14 +19,19 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 .parallax2 {
     /* The image used */
-    background-image: url('Landscape.jpg');
+    background-image: url('Images/Landscape2.jpg');
 
     /* Full height */
-    height: 100vh;
+    height: 60vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -33,8 +40,57 @@ html {
     background-size: cover;
 }
 
+.parallax3 {
+    /* The image used */
+    background-image: url('Images/Landscape3.jpg');
+
+    /* Full height */
+    height: 60vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url('Images/Landscape4.jpg');
+
+    /* Full height */
+    height: 60vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    /* The image used */
+    background-image: url('Images/Landscape5.jpg');
+
+    /* Full height */
+    height: 60vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-text {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
 .introduction {
-    height: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     background-color: white;
     font-size: 36px;
 }
