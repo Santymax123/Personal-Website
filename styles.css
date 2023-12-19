@@ -5,84 +5,29 @@ html {
 }
 
 
-/* Creates a paralax scrolling effect */
-.parallax-cover {
-    /* The image used */
-    background-image: url('Images/Max_Stoner.jpg');
 
+
+/* Creates a paralax scrolling effect */
+.parallax {
     /* Image height */
-    height: 100vh;
+    height: 60vh;
 
     /* Create the parallax scrolling effect */
-    position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax {
+    /* Overrides Height */
+    height: 100vh !important;
 
     /* create centred flex box for text and other items */
     justify-content: center;
     display: flex;
     align-items: center;
     
-}
-
-
-
-.parallax2 {
-    /* The image used */
-    background-image: url('Images/Landscape2.jpg');
-
-    /* Image height */
-    height: 60vh;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax3 {
-    /* The image used */
-    background-image: url('Images/Landscape3.jpg');
-
-    /* Image height */
-    height: 60vh;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax4 {
-    /* The image used */
-    background-image: url('Images/Landscape4.jpg');
-
-    /* Image height */
-    height: 60vh;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax5 {
-    /* The image used */
-    background-image: url('Images/Landscape5.jpg');
-
-    /* Image height */
-    height: 60vh;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .parallax-text {
@@ -108,6 +53,26 @@ html {
     font-size: 3.5rem; 
     color: #717b7a;
 }
+
+
+/* For the expanding panels */
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: .75s ease-in;
+}
+
+.panel.active {
+    flex: 5;
+  }
 
 /*
 #ebefde - off white
