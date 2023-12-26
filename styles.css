@@ -19,9 +19,14 @@ html {
     background-size: cover;
 }
 
-.parallax {
+.parallax-cover {
     /* Overrides Height */
-    height: 100vh !important;
+    height: 100vh
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     /* create centred flex box for text and other items */
     justify-content: center;
