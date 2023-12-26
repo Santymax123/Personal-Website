@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 body,
@@ -8,8 +8,26 @@ html {
     margin: 0;
 }
 
+p {
+    text-align: justify;
+}
 
+.navbar {
+    background-color: #ebefde !important;
+}
 
+.nav-link {
+    color: #717b7a !important;
+}
+
+.navbar-brand {
+    color: #717b7a !important;
+}
+
+footer {
+    background-color: #ebefde !important;
+    color: #717b7a;
+}
 
 /* Creates a paralax scrolling effect */
 .parallax {
@@ -40,14 +58,14 @@ html {
 }
 
 .parallax-text {
-    color: #717b7a;
-    text-align: center;
+    color: #ebefde;
+    text-align: justify;
     font-size: 36px;
     padding-left: 5vh;
     padding-right: 5vh;
 }
 
-.introduction {
+.content-block {
     padding-top: 1vh;
     padding-bottom: 1vh;
     padding-left: 5vw;
